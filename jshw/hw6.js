@@ -86,4 +86,23 @@ console.log(decodeMorse(sentence));
 
 //TASK_2
 
+const clickerObj = {
+    incClick: document.querySelector('.button-inc'),
+    decrClick: document.querySelector('.button-decr'),
+    result: document.querySelector('.result')
+};
 
+clickerObj.incClick.addEventListener('click', clickerInc);
+clickerObj.decrClick.addEventListener('click', clickerDecr);
+
+let resultClick = 0;
+
+function clickerInc() {
+    resultClick++;
+    clickerObj.result.innerHTML = resultClick;
+}
+
+function clickerDecr() {
+    resultClick--;
+    clickerObj.result.innerHTML = resultClick;
+}
