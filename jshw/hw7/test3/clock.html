@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="text">Time in Lviv</div>
+        <div class="clock">
+            <div class="timer-block">            
+                <span id="hours"></span>
+            </div>
+            <div class="timer-block">            
+                <span id="minutes"></span>
+            </div>
+            <div class="timer-block">            
+                <span id="seconds"></span>
+            </div>
+        </div> -->
+      <div class="promotion__timer">
+        <div class="title">Time in Lviv:</div>
+        <div class="timer">
+          <div class="timer__block">
+            <span id="hours"></span>
+            hours
+          </div>
+          <div class="timer__block">
+            <span id="minutes"></span>
+            minutes
+          </div>
+          <div class="timer__block">
+            <span id="seconds"></span>
+            seconds
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      /* .text {
+            font-size: 3em;
+            text-align: center;
+            margin-top: 15%;
+        }
+
+        .clock {
+            font-size: 2.5em;
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        .timer__block {
+            width: 102px;
+            height: 120px;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+            }
+        .timer__block span {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-size: 56px;
+            font-weight: 700;
+            } */
+      .promotion__timer {
+        width: 50%;
+      }
+      .promotion__timer .title {
+        text-align: right;
+      }
+      .promotion__timer .timer {
+        margin-top: 60px;
+        padding-left: 85px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .promotion__timer .timer__block {
+        width: 102px;
+        height: 120px;
+        background: #fff;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+      }
+      .promotion__timer .timer__block span {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 56px;
+        font-weight: 700;
+      }
+      
+      .title {
+        font-size: 36px;
+        font-weight: 400;
+      }
+    </style>
+
+    <script src="clock.js"></script>
+  </body>
+</html>
