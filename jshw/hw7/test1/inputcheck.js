@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
       return /\d/.test(data);
     }
 
-    btn.addEventListener('click', (ev) => {
+    btn.addEventListener('click', () => {
         const str = input.value;
         const checkStr = checkName(str);
 
