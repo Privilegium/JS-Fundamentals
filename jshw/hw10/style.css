@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.timer__display{
+    height: 250px;
+    width: 400px;
+    margin: 100px 0 0 450px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.circle__container{
+    height: 250px;
+    width: 150px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 100px 0 0 50px;
+    position: absolute;
+}
+
+.circle__title{
+    border-bottom: 1px solid black;
+    height: 50%;
+    display: flex; 
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.circle__timing{
+    height: 50%;    
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.button__container{
+    height: 200px;
+    margin: 25px 0 0 450px;
+
+}
+
+.start{
+height: 25px;
+width: 98px;
+
+}
+
+.stop{
+height: 25px;
+width: 98px;
+
+}
+
+.circle{
+height: 25px;
+width: 98px;
+
+}
+
+.pause{
+height: 25px;
+width: 98px;
+
+}
+
+

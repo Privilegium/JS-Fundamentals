@@ -73,3 +73,13 @@ class Doors {
 
 const firstDoor = new Doors('plastic', 200, 80, 'opened');
 firstDoor.close();
+
+
+
+class Conditioner {
+
+    constructor(maxArea, ) {
+        
+    }
+
+}
